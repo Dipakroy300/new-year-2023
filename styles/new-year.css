@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.back-img{
+    background-image: url('../images/banner/banner3.png');
+    background-size: cover;
+    background-position: cover;
+    height: 720px;
+    margin: 0;
+}
+
+
+
+.banner{
+    text-align: right;
+    margin:0px 100px 364px 700px ;
+    padding-top: 150px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.banner-description{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 18px;
+
+}
+
+
+.btn-primary{
+    width: 160px;
+    height: 64px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* main  section  */
+
+.main{
+    display: flex;
+    text-align: left;
+    margin: 200px;
+    gap:50px;
+}
+.main-container{
+   margin-top: 200px;
+   padding-bottom: 10px;
+}
+
+.main-title{
+    font-weight: 600;
+    font-size: 40px;
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+ul{
+    list-style-type: "\2714";
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 13px;
+    
+}
+.main-title2{
+font-weight: 600;
+font-size: 40px;
+text-align: center;
+margin-top: 50px;
+margin-bottom: 90px;
+}
+
+/* main containner 2 */
+
+.main-container2{
+
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+.meal-artcile h4,h5{
+    padding: 7px;
+}
+
+
+/* container 3 */
+
+.image-gra{
+    background-image: url('../images/watch.png');
+    background: linear-gradient(to right, rgba(255, 91, 36, 1) 0%, rgba(242, 50, 2, 0.83) 29%, rgba(244, 89, 72, 0.73) 47%, rgba(248, 100, 84, 0.72) 49%, rgba(230, 106, 92, 0.71) 50%, rgba(229, 114, 96, 0.52) 84%, rgba(228, 118, 98, 0.82) 100%), url(../images/watch.png);
+
+    min-height: 20;
+    border-radius: 8px;
+    background-blend-mode: screen;
+    margin: 140px;
+    background-size: cover;
+    background-position: cover;
+    height: 300px;
+
+}
+
+.image-gra-details{
+    padding:120px;
+    font-weight: 700;
+    font-size: 40px;
+    margin-right: 200px;
+}
+
+/* footer */
+
+.main-footer:not(.footer-img){
+    background: #151414;
+    display: flex;
+    text-align: left;
+    /* margin: 200px; */
+    gap:50px;
+    padding: 120px;
+    margin-top: 50px;
+}
+
+.footer-header{
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.footer-details{
+    font-weight: 400;
+    font-size: 16px;
+    color:#F8F8F8 ;
+    margin-top: 10px;
+}
+
+.footer-sub{
+    font-weight: 600;
+    font-size: 25px;
+    color:#F8F8F8 ;
+    margin-bottom: 20px;
+}
+.footer-img{
+    text-align: left;
+    width: 100%;
+    height: 300px;
+}
+.btn-primary2{
+    width: 130.11px;
+    height: 44px; 
+    background: #005FAC;
+    border-radius: 8px;
+    font-weight: 600;
+font-size: 20px;
+margin-top: 15px;
+}
+input{
+    font-weight:700;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 13px;
+    height: 27px;
+    padding: 10px;
+
+
+}
+#btnCall{
+    width: 100px;
+    height: 35px;
+    border: none;
+    background-color:#F8F8F8 ;
+    border-radius: 2px;
+    font-weight: 800;
+}
+
+.footer-icon{
+    margin-top: 20px;
+}
